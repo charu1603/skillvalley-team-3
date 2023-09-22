@@ -8,7 +8,7 @@ const Sidebar = () => {
             <div className=' flex flex-col justify-center items-center'>
         <img src={{}} alt=""></img>
         <h3 className='font-bold text-white text-2xl'>JOHN DAO HAO</h3>
-        <button className='bg-blue-600 px-4 rounded-lg  text-white'>Profile</button>
+        <button className='bg-blue-600 px-4 rounded-lg  text-white text-xs'>Profile</button>
             
         </div></div>
         <div className='h-2/3 bg-[#172554] rounded-tr-[4rem] flex flex-col justify-between'>
@@ -25,6 +25,9 @@ const Sidebar = () => {
 </div>
 <div className=''>
     <h6>Payment</h6>
+</div>
+<div className=''>
+    <h6>Logout</h6>
 </div>
          </div>
          <div className='bg-[#1D2540] my-6 mx-10  rounded-lg '>
